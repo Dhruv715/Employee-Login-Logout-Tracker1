@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        form{
+            margin: 10vh auto;
+            width: 20vw;
+            background-color: black;
+            padding: 10px ;
+            color: whitesmoke;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        form div{
+            margin: 10px 0px;
+        }
+        form div input{
+            padding: 10px 20px;
+        }
+        form div:last-child input{
+            background-color: red;
+            border: none;
+            outline: none;
+            padding: 10px 20px;
+            color: white;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+        <h1>Login</h1>
+        <div>
+            <label for="">email</label>
+            <input type="email" name="email" placeholder="JohnDoe@gmail.com">
+        </div>
+        <div>
+            <label for="">Password</label>
+            <input type="password" name="password" placeholder="Enter Password here..">
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
